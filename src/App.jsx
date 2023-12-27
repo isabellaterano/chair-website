@@ -5,9 +5,9 @@ import Hero from "./Components/Hero/Hero";
 
 const App = () => {
   let heroData = [
-    { text1: "Dive into", text2: "what you love" },
-    { text1: "Indulge", text2: "your pass" },
-    { text1: "Love", text2: "design" },
+    { text1: "Design Your Space", text2: "Sit in Luxury" },
+    { text1: "Where Style", text2: "Meets Comfort" },
+    { text1: "Elevate", text2: "Your Lifestyle" },
   ];
   const [heroCount, setHeroCount] = useState(0);
   const [playStatus, setPlayStatus] = useState(false);

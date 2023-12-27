@@ -1,5 +1,4 @@
 import "./Hero.css";
-import arrow_forward from "../../assets/arrow_forward.svg";
 import play from "../../assets/play.svg";
 import pause from "../../assets/pause.svg";
 
@@ -16,10 +15,7 @@ const Hero = ({
         <p>{heroData.text1}</p>
         <p>{heroData.text2}</p>
       </div>
-      <div className="hero-explore">
-        <p>Explore the features</p>
-        <img className="icon" src={arrow_forward} alt="arrow" />
-      </div>
+
       <div className="hero-dot-play">
         <ul className="hero-dots">
           <li
