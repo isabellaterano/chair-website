@@ -27,6 +27,10 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
+      <div className="shop-cart">
+        <img src="src\assets\shopping-car.svg" className="shopping-icon" />
+        <span>0</span>
+      </div>
     </div>
   );
 };

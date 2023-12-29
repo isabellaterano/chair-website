@@ -42,3 +42,28 @@
 .nav-contact:hover {
   background: #4ca1af;
 }
+
+.shop-cart {
+  position: relative;
+  cursor: pointer;
+}
+
+.shopping-icon {
+  width: 30px;
+  color: #fff;
+}
+
+.shop-cart span {
+  font-size: 11px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ce1717;
+  color: #fff;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: -10px;
+  right: -7px;
+}

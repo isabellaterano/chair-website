@@ -1,14 +1,6 @@
 import "./Hero.css";
-import play from "../../assets/play.svg";
-import pause from "../../assets/pause.svg";
 
-const Hero = ({
-  heroData,
-  setHeroCount,
-  heroCount,
-  setPlayStatus,
-  playStatus,
-}) => {
+const Hero = ({ heroData, setHeroCount, heroCount }) => {
   return (
     <div className="hero">
       <div className="hero-text">
@@ -31,15 +23,6 @@ const Hero = ({
             className={heroCount === 2 ? "hero-dot blue" : "hero-dot"}
           ></li>
         </ul>
-        <div className="hero-play">
-          <img
-            className="icon"
-            onClick={() => setPlayStatus(!playStatus)}
-            src={playStatus ? pause : play}
-            alt=""
-          />
-          <p>See the video</p>
-        </div>
       </div>
     </div>
   );
