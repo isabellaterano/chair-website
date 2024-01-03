@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import Background from "./Components/Background/Background";
 import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Hero/Hero";
+import Footer from "./Components/Footer/Footer";
+import "./App.css";
 
 const App = () => {
   let heroData = [
@@ -10,7 +12,6 @@ const App = () => {
     { text1: "Elevate", text2: "Your Lifestyle" },
   ];
   const [heroCount, setHeroCount] = useState(0);
-  const [playStatus, setPlayStatus] = useState(false);
 
   useEffect(() => {
     setInterval(() => {
@@ -21,16 +22,17 @@ const App = () => {
   }, []);
 
   return (
-    <div>
-      <Background playStatus={playStatus} heroCount={heroCount} />
-      <Navbar />
-      <Hero
-        setPlayStatus={setPlayStatus}
-        heroData={heroData[heroCount]}
-        heroCount={heroCount}
-        setHeroCount={setHeroCount}
-        playStatus={playStatus}
-      />
+    <div className="page-container">
+      <div className="content-wrap">
+        <Navbar />
+        <Background heroCount={heroCount} />
+        <Hero
+          heroData={heroData[heroCount]}
+          heroCount={heroCount}
+          setHeroCount={setHeroCount}
+        />
+      </div>
+      <Footer />
     </div>
   );
 };

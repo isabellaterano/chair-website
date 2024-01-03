@@ -1,0 +1,27 @@
+.background-contact {
+}
+
+.contact-page {
+  width: 100%;
+  display: flex;
+}
+
+.img-chair {
+  background-image: url("../../assets/image7.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40%;
+  min-height: 100vh;
+}
+
+.form-contact {
+  width: 60%;
+  padding: 6.5rem;
+}
+
+.form-contact input {
+  border: none;
+  border-bottom: 1px;
+  width: 100%;
+}

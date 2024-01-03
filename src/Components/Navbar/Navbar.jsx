@@ -3,7 +3,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <div className="nav">
+    <nav>
       <div className="nav-logo">Chair.</div>
       <ul className="nav-menu">
         <li>
@@ -18,7 +18,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link to="/about" className="links">
-            About
+            About Us
           </Link>
         </li>
         <li className="nav-contact">
@@ -31,7 +31,7 @@ const Navbar = () => {
         <img src="src\assets\shopping-car.svg" className="shopping-icon" />
         <span>0</span>
       </div>
-    </div>
+    </nav>
   );
 };
 

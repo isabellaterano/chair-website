@@ -6,7 +6,6 @@ import "./index.css";
 import Contact from "./routes/Contact/Contact.jsx";
 import Product from "./routes/Product/Product.jsx";
 import About from "./routes/About/About.jsx";
-
 import ErrorPage from "./routes/ErrorPage.jsx";
 
 import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";

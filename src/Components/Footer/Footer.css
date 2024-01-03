@@ -1,18 +1,15 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 .footer-content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 3rem 3.5rem;
+  padding: 2rem 0 3rem;
   background-color: #4ca1af;
-  position: absolute;
-  left: 0;
+  position: relative;
   bottom: 0;
-  right: 0;
+  width: 100%;
+}
+
+.footer-contact {
+  padding-left: 5rem;
 }
 
 .social-media {
@@ -61,7 +58,7 @@
   padding: 0.75rem;
   width: 100%;
   background-color: #fff;
-  border-radius: 4px;
+  border-radius: 4px 0px 0px 4px;
 }
 
 .send button {
@@ -72,6 +69,11 @@
   border-radius: 0px 4px 4px 0px;
   cursor: pointer;
   transition: all 0.4s;
+  background-color: #ddd;
+}
+
+.img-button {
+  width: 1rem;
 }
 
 .copyright {
@@ -85,6 +87,7 @@
   left: 0;
   bottom: 0;
   right: 0;
+  border-top: 1px solid #ddd;
 }
 
 @media screen and (max-width: 768px) {

@@ -1,6 +1,7 @@
 .hero {
   margin: 0px 120px;
   margin-top: 100px;
+  padding-bottom: 6.4rem;
 }
 
 .hero-text {
@@ -10,13 +11,8 @@
   line-height: 110px;
 }
 
-.icon {
-  width: 3.5rem;
-  cursor: pointer;
-}
-
 .hero-dot-play {
-  margin-top: 9rem;
+  margin-top: 12rem;
   display: flex;
   justify-content: space-between;
 }
