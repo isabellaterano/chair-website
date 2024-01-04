@@ -4,7 +4,7 @@ import App from "./App.jsx";
 import "./index.css";
 
 import Contact from "./routes/Contact/Contact.jsx";
-import Product from "./routes/Product/Product.jsx";
+import Products from "./routes/Products/Products.jsx";
 import About from "./routes/About/About.jsx";
 import ErrorPage from "./routes/ErrorPage.jsx";
 
@@ -21,8 +21,8 @@ const router = createBrowserRouter([
     element: <Contact />,
   },
   {
-    path: "product",
-    element: <Product />,
+    path: "products",
+    element: <Products />,
   },
   {
     path: "about",

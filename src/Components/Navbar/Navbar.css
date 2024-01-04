@@ -1,3 +1,7 @@
+:root {
+  --main-color: #ffbe98;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -11,7 +15,7 @@ nav {
   font-family: "Outfit", sans-serif;
   font-size: 42px;
   font-weight: 500;
-  color: #4ca1af;
+  color: var(--main-color);
 }
 
 .nav-menu {
@@ -28,7 +32,7 @@ nav {
 }
 
 .links:hover {
-  border-bottom: 2px solid #4ca1af;
+  border-bottom: 2px solid var(--main-color);
 }
 
 .contact {
@@ -41,7 +45,7 @@ nav {
 }
 
 .nav-contact:hover {
-  background: #4ca1af;
+  background: var(--main-color);
 }
 
 .shop-cart {

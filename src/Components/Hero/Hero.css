@@ -1,3 +1,7 @@
+:root {
+  --main-color: #ffbe98;
+}
+
 .hero {
   margin: 0px 120px;
   margin-top: 100px;
@@ -33,7 +37,7 @@
 }
 
 .hero-dot.blue {
-  background: #4ca1af;
+  background: var(--main-color);
 }
 
 .hero-play {

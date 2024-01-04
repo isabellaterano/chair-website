@@ -2,56 +2,56 @@
   "products": [
     {
       "id": 1,
-      "name": " LD01 LOUNGE CHAIR",
+      "name": " NORMAN LOUNGE CHAIR",
       "price": 200,
       "image": "src/assets/chair1.png",
       "description": "Introducing our exquisite 'Harmony Elegance' Chair, a masterpiece of design and comfort that seamlessly blends sophistication with coziness. This chair is more than just a piece of furniture; it's a statement of refined taste and unwavering quality."
     },
     {
       "id": 2,
-      "name": " LD02 LOUNGE CHAIR",
+      "name": " JASON LOUNGE CHAIR",
       "price": 250,
       "image": "src/assets/chair2.png",
       "description": "Introducing our exquisite 'Harmony Elegance' Chair, a masterpiece of design and comfort that seamlessly blends sophistication with coziness. This chair is more than just a piece of furniture; it's a statement of refined taste and unwavering quality."
     },
     {
       "id": 3,
-      "name": " LD03 LOUNGE CHAIR",
+      "name": "KRAMER LOUNGE CHAIR",
       "price": 290,
       "image": "src/assets/chair3.png",
       "description": "Introducing our exquisite 'Harmony Elegance' Chair, a masterpiece of design and comfort that seamlessly blends sophistication with coziness. This chair is more than just a piece of furniture; it's a statement of refined taste and unwavering quality."
     },
     {
       "id": 4,
-      "name": " LD04 LOUNGE CHAIR",
+      "name": " CARRIE LOUNGE CHAIR",
       "price": 200,
       "image": "src/assets/chair4.png",
       "description": "Introducing our exquisite 'Harmony Elegance' Chair, a masterpiece of design and comfort that seamlessly blends sophistication with coziness. This chair is more than just a piece of furniture; it's a statement of refined taste and unwavering quality."
     },
     {
       "id": 5,
-      "name": " LD05 LOUNGE CHAIR",
+      "name": " FREDDY LOUNGE CHAIR",
       "price": 300,
       "image": "src/assets/chair5.png",
       "description": "Introducing our exquisite 'Harmony Elegance' Chair, a masterpiece of design and comfort that seamlessly blends sophistication with coziness. This chair is more than just a piece of furniture; it's a statement of refined taste and unwavering quality."
     },
     {
       "id": 6,
-      "name": " LD06 LOUNGE CHAIR",
+      "name": " MICHAEL LOUNGE CHAIR",
       "price": 200,
       "image": "src/assets/chair6.png",
       "description": "Introducing our exquisite 'Harmony Elegance' Chair, a masterpiece of design and comfort that seamlessly blends sophistication with coziness. This chair is more than just a piece of furniture; it's a statement of refined taste and unwavering quality."
     },
     {
       "id": 7,
-      "name": " LD07 LOUNGE CHAIR",
+      "name": " LECTER LOUNGE CHAIR",
       "price": 200,
       "image": "src/assets/chair7.png",
       "description": "Introducing our exquisite 'Harmony Elegance' Chair, a masterpiece of design and comfort that seamlessly blends sophistication with coziness. This chair is more than just a piece of furniture; it's a statement of refined taste and unwavering quality."
     },
     {
       "id": 8,
-      "name": " LD08 LOUNGE CHAIR",
+      "name": " SAMARA LOUNGE CHAIR",
       "price": 200,
       "image": "src/assets/chair8.png",
       "description": "Introducing our exquisite 'Harmony Elegance' Chair, a masterpiece of design and comfort that seamlessly blends sophistication with coziness. This chair is more than just a piece of furniture; it's a statement of refined taste and unwavering quality."
