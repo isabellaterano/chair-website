@@ -1,12 +1,8 @@
 import "./About.css";
-import Footer from "../../Components/Footer/Footer";
-import Navbar from "../../Components/Navbar/Navbar";
 
 const About = () => {
   return (
     <div className="color">
-      <Navbar />
-
       <div className="container-about">
         <div className="title">
           <h1>About Us</h1>
@@ -45,7 +41,6 @@ const About = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

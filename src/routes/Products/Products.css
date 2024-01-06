@@ -1,0 +1,49 @@
+:root {
+  --main-color: #ffbe98;
+}
+
+.products {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  place-items: center;
+}
+
+.products img {
+  width: 250px;
+}
+
+.description {
+  text-align: center;
+  background-color: #ddd;
+  border-radius: 6px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+.description p {
+  padding-bottom: 0.5rem;
+}
+
+.addToCart,
+.view-product {
+  cursor: pointer;
+  border: none;
+  min-width: 100px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.addToCart {
+  background-color: var(--main-color);
+  margin-right: 0.5rem;
+}
+
+.view-product {
+  background-color: #fff;
+  color: var(--main-color);
+}

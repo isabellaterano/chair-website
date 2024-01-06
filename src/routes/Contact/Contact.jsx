@@ -1,12 +1,8 @@
 import "./Contact.css";
-import Navbar from "../../Components/Navbar/Navbar";
-import Footer from "../../Components/Footer/Footer";
 
 const Contact = () => {
   return (
     <div className="background-contact">
-      <Navbar />
-
       <div className="contact-page">
         <div className="container">
           <div className="text">Contact us </div>
@@ -53,8 +49,6 @@ const Contact = () => {
           </form>
         </div>
       </div>
-
-      <Footer />
     </div>
   );
 };

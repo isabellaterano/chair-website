@@ -1,4 +1,5 @@
 import { useRouteError } from "react-router-dom";
+import "./ErrorPage.css";
 
 const ErrorPage = () => {
   const error = useRouteError();
@@ -8,7 +9,7 @@ const ErrorPage = () => {
   return (
     <div>
       <h1>Ops!</h1>
-      <p>Temos um problema!</p>
+      <p>We have a problem!</p>
       <p>{error.statusText}</p>
       <p>{error.error.message}</p>
     </div>
